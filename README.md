@@ -67,3 +67,10 @@
 3.3.8 Repeat for each set
 
 4 Exit
+
+
+#How to run the description
+#What to expect
+In Git Bash go to the directory housing generate_chart_hw.py
+Type python generate_chart_hw.py housing.data.txt
+It will generate 3 sets of files: HST, SCT and PLT in the same directory.

@@ -60,7 +60,7 @@ for c in data.columns:
 
     plt.hist(data[c], bins=14)
     plt.ylabel(c)
-    plt.savefig(c + '_'+ thetimestamp() + '.png')
+    plt.savefig('HST_' + c + '_'+ thetimestamp() + '.png')
     plt.close()
 
 ########################################  HISTOGRAM  ###########################################
@@ -110,3 +110,5 @@ print(np.round(np.mean(data),decimals=2))
 #print(np.mean(data))
 print(np.round(np.std(data),decimals=2))
 #print(np.std(data))
+
+print('\n\n\n -> Chart production completed')
