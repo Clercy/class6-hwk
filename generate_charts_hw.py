@@ -105,6 +105,11 @@ for c in data.columns:
 
 ###########################################  PLOT  ############################################
 
+#Add 2 more rows to the Dataframe with the Mean and the Standard Deviation
+data.loc['MEAN'] = np.round(np.mean(data),decimals=2)
+data.loc['STD'] = np.round(np.std(data),decimals=2)
+print(data)
+
 #Formatted the Mean and Standard Deviation
 print(np.round(np.mean(data),decimals=2))
 #print(np.mean(data))
